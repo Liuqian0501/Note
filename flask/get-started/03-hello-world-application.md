@@ -39,12 +39,6 @@ All parameters are optional.
 |  4 |`options`: To be forwarded to underlying Werkzeug server.|
 
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
 
 
 The above given `Python` script is executed from Python shell.
