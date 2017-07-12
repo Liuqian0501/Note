@@ -29,13 +29,23 @@ Finally the run() method of Flask class runs the application on the local develo
 ```
 app.run(host, port, debug, options)
 ```
-All parameters are optional
+All parameters are optional.
+
 |Sr.No | Parameters & Description  |
 |---|:---:|
 |  1 | `host`: Hostname to listen on. Defaults to 127.0.0.1 (localhost). Set to ‘0.0.0.0’ to have server available externally |
 |  2 |  `port`:Defaults to 5000 |
 |  3 |  `debug`:Defaults to false. If set to true, provides a debug information|
 |  4 |`options`: To be forwarded to underlying Werkzeug server.|
+
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+
 
 The above given `Python` script is executed from Python shell.
 ```sh
