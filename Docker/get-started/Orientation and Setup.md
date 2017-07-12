@@ -1,5 +1,6 @@
+# Part 1: Orientation and Setup
 
-# A brief explanation of containers
+## A brief explanation of containers
    - An **image** is a lightweight, stand-alone, executable package that includes everything needed to run a piece of software, including the code, a runtime, libraries, environment variables, and config files.
 
 
@@ -8,7 +9,7 @@
 
  Containers run apps natively on the host machine’s kernel. They have better performance characteristics than virtual machines that only get virtual access to host resources through a hypervisor. Containers can get native access, each one running in a discrete process, taking no more memory than any other executable.
 
-# Containers vs. virtual machines
+## Containers vs. virtual machines
 Consider this diagram comparing virtual machines to containers:
 
 - [**Virtual Machine diagram**](https://www.docker.com/sites/default/files/Container%402x.png)
