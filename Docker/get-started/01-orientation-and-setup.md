@@ -14,13 +14,17 @@ Consider this diagram comparing virtual machines to containers:
 
 - **Virtual Machine diagram**
 
-![alt text](https://www.docker.com/sites/default/files/VM%402x.png "Virtual machine stack example")
+<p align="center"> 
+<img src="https://www.docker.com/sites/default/files/VM%402x.png" alt="Virtual machine stack example" width="400" height="400"/>
+</p>
 
 Virtual machines run guest operating systems—note the OS layer in each box. This is resource intensive, and the resulting disk image and application state is an entanglement of OS settings, system-installed dependencies, OS security patches, and other easy-to-lose, hard-to-replicate ephemera.
 
 - **Container diagram**
 
-![alt text](https://www.docker.com/sites/default/files/Container%402x.png "container stack example")
+<p align="center"> 
+<img src="https://www.docker.com/sites/default/files/Container%402x.png" alt="Container stack example" width="400" height="400"/>
+</p>
 
 Containers can share a single kernel, and the only information that needs to be in a container image is the executable and its package dependencies, which never need to be installed on the host system. These processes run like native processes, and you can manage them individually by running commands like docker ps—just like you would run ps on Linux to see active processes. Finally, because they contain all their dependencies, there is no configuration entanglement; a containerized app “runs anywhere.”
 
