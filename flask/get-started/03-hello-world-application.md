@@ -30,8 +30,8 @@ Finally the run() method of Flask class runs the application on the local develo
 app.run(host, port, debug, options)
 ```
 All parameters are optional
-|**Sr.No** | **Parameters & Description**  |
-|---|---|
+|Sr.No | Parameters & Description  |
+|---|:---:|
 |  1 | `host`: Hostname to listen on. Defaults to 127.0.0.1 (localhost). Set to ‘0.0.0.0’ to have server available externally |
 |  2 |  `port`:Defaults to 5000 |
 |  3 |  `debug`:Defaults to false. If set to true, provides a debug information|
