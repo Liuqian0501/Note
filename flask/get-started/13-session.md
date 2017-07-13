@@ -13,8 +13,11 @@ Session[‘username’] = ’admin’`
 To release a session variable use pop() method.
 ```python
 session.pop('username', None)
+```
+
 The following code is a simple demonstration of session works in Flask. URL ‘/’ simply prompts user to log in, as session variable ‘username’ is not set.
 
+```python
 @app.route('/')
 def index():
    if 'username' in session:
