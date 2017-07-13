@@ -61,6 +61,9 @@ The output will be displayed as shown below. Click the link “click here to log
 <img src = https://www.tutorialspoint.com/flask/images/login_page_using_session.jpg>
 
 The link will be directed to another screen. Type `‘admin’`.
+
 <img src = https://www.tutorialspoint.com/flask/images/another_login_screen.jpg>
+
 The screen will show you the message, `‘Logged in as admin’`.
+
 <img src = https://www.tutorialspoint.com/flask/images/logged_in_as_admin.jpg>
